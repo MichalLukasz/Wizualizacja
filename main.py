@@ -14,23 +14,22 @@ print(g)
 print(h)
 
 print('Zadanie 2')
-dodawanie = c + d
-odejmowanie = f - e
-mnozenie = c * e
-dzielenie = d / f
-potega = c ** e
-reszta = d % c
-
-print(dodawanie)
-print(odejmowanie)
-print(mnozenie)
-print(dzielenie)
-print(potega)
-print(reszta)
+c += 3
+print(c)
+c -= 3
+print(c)
+c *= 3
+print(c)
+c /= 3
+print(c)
+c **= 3
+print(c)
+c %= 3
+print(c)
 
 print('Zadanie 3')
 print(math.exp(10))
-print((math.log10(5+math.sin(8)**2))**1/6)
+print((math.log10(5+math.sin(8)**2))**(1/6))
 
 print('Zadanie 4')
 imie = 'MICHAL'
