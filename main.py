@@ -29,7 +29,9 @@ print(c)
 
 print('Zadanie 3')
 print(math.exp(10))
-print((math.log10(5+math.sin(8)**2))**(1/6))
+print((math.log(5+math.sin(8)**2))**(1/6))
+print(math.ceil(4.80))
+print(math.floor(3.55))
 
 print('Zadanie 4')
 imie = 'MICHAL'
